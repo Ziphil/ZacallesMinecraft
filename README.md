@@ -14,7 +14,7 @@ Currently supports basic Latin and Cyrillic scripts.
 3. Click “Zacalles-16px” in the “Artifacts” section at the bottom of the page
 4. Move the downloaded zip file to your resource pack folder of Minecraft
 
-## Screenshorts
+## Screenshots
 ### Latin
 
 <div align="center">

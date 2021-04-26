@@ -1,0 +1,19 @@
+on:
+  - push
+  - pull_request
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v1
+      - name: Setup Ruby
+        uses: actions/setup-ruby@v1
+      - name: Build
+        run: ruby build/build.rb
+      - name: Upload
+        uses: actions/upload-artifact@v2
+        with:
+          name: Zacalles-16px
+          path: dist/**
